@@ -1,5 +1,5 @@
 /FI "E:\Games\UE_5.2\Engine\Plugins\Experimental\CharacterAI\Intermediate\Build\Win64\x64\UnrealEditor\Development\CharacterAI\Definitions.CharacterAI.h" 
-/FI "E:\UE5Proj\ThirdPersonLecture1\Intermediate\Build\Win64\x64\ThirdPersonLecture1Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h" 
+/FI "E:\GITUE5\ThiredPersonLecture1\ThirdPersonLecture1\Intermediate\Build\Win64\x64\ThirdPersonLecture1Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h" 
 /I "E:\Games\UE_5.2\Engine\Source" 
 /I "E:\Games\UE_5.2\Engine\Plugins\Experimental\CharacterAI\Source\CharacterAI\Private" 
 /I "E:\Games\UE_5.2\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Slate\UHT" 

@@ -4,7 +4,7 @@
 		{
 			"name": "Launch ThirdPersonLecture1 (Debug)",
 			"request": "launch",
-			"program": "E:\\UE5Proj\\ThirdPersonLecture1\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"program": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
 			"preLaunchTask": "ThirdPersonLecture1 Win64 Debug Build",
 			"args": [
 			],
@@ -20,7 +20,7 @@
 		{
 			"name": "Launch ThirdPersonLecture1 (DebugGame)",
 			"request": "launch",
-			"program": "E:\\UE5Proj\\ThirdPersonLecture1\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"program": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
 			"preLaunchTask": "ThirdPersonLecture1 Win64 DebugGame Build",
 			"args": [
 			],
@@ -36,7 +36,7 @@
 		{
 			"name": "Launch ThirdPersonLecture1 (Development)",
 			"request": "launch",
-			"program": "E:\\UE5Proj\\ThirdPersonLecture1\\Binaries\\Win64\\UnrealGame.exe",
+			"program": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Binaries\\Win64\\UnrealGame.exe",
 			"preLaunchTask": "ThirdPersonLecture1 Win64 Development Build",
 			"args": [
 			],
@@ -52,7 +52,7 @@
 		{
 			"name": "Launch ThirdPersonLecture1 (Test)",
 			"request": "launch",
-			"program": "E:\\UE5Proj\\ThirdPersonLecture1\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"program": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
 			"preLaunchTask": "ThirdPersonLecture1 Win64 Test Build",
 			"args": [
 			],
@@ -68,7 +68,7 @@
 		{
 			"name": "Launch ThirdPersonLecture1 (Shipping)",
 			"request": "launch",
-			"program": "E:\\UE5Proj\\ThirdPersonLecture1\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"program": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
 			"preLaunchTask": "ThirdPersonLecture1 Win64 Shipping Build",
 			"args": [
 			],
@@ -87,7 +87,7 @@
 			"program": "E:\\Games\\UE_5.2\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
 			"preLaunchTask": "ThirdPersonLecture1Editor Win64 Debug Build",
 			"args": [
-				"E:\\UE5Proj\\ThirdPersonLecture1\\ThirdPersonLecture1.uproject"
+				"E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\ThirdPersonLecture1.uproject"
 			],
 			"cwd": "E:\\Games\\UE_5.2",
 			"stopAtEntry": false,
@@ -104,7 +104,7 @@
 			"program": "E:\\Games\\UE_5.2\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
 			"preLaunchTask": "ThirdPersonLecture1Editor Win64 DebugGame Build",
 			"args": [
-				"E:\\UE5Proj\\ThirdPersonLecture1\\ThirdPersonLecture1.uproject"
+				"E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\ThirdPersonLecture1.uproject"
 			],
 			"cwd": "E:\\Games\\UE_5.2",
 			"stopAtEntry": false,
@@ -121,7 +121,7 @@
 			"program": "E:\\Games\\UE_5.2\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
 			"preLaunchTask": "ThirdPersonLecture1Editor Win64 Development Build",
 			"args": [
-				"E:\\UE5Proj\\ThirdPersonLecture1\\ThirdPersonLecture1.uproject"
+				"E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\ThirdPersonLecture1.uproject"
 			],
 			"cwd": "E:\\Games\\UE_5.2",
 			"stopAtEntry": false,
@@ -140,7 +140,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=E:\\UE5Proj\\ThirdPersonLecture1\\ThirdPersonLecture1.uproject",
+				"-project=E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\ThirdPersonLecture1.uproject",
 				"-game",
 				"-engine"
 			],
