@@ -1,0 +1,6 @@
+2023/10/10-02:39:27.132 18b8 Creating DB E:/UE5Proj/ThirdPersonLecture1/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
+2023/10/10-02:39:27.143 18b8 Reusing MANIFEST E:/UE5Proj/ThirdPersonLecture1/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/10-02:49:33.226 339c Level-0 table #5: started
+2023/10/10-02:49:33.233 339c Level-0 table #5: 1167 bytes OK
+2023/10/10-02:49:33.234 339c Delete type=0 #3
+2023/10/10-02:49:33.235 339c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
