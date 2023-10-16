@@ -1,5 +1,37 @@
 [
 	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\FireBall.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_ThirdPersonLecture1\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\FireBall.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_ThirdPersonLecture1\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\SparksProjectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_ThirdPersonLecture1\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\SparksProjectile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_ThirdPersonLecture1\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
 		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\ThirdPersonLecture1.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",

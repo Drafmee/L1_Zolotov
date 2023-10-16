@@ -37,6 +37,15 @@ class AThirdPersonLecture1Character : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	class UInputAction* LookAction;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	class UInputAction* FireFireballAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	class UInputAction* FireSparksAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	class UInputAction* FireFirestormAction;
+
 public:
 	AThirdPersonLecture1Character();
 	
@@ -62,5 +71,33 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+	
+	UPROPERTY(EditAnywhere, Category = "Projectile" )
+	TSubclassOf<class AActor> Fireball;
+
+	UPROPERTY(EditAnywhere, Category = "Projectile" )
+	TSubclassOf<class AActor> Sparks;
+
+	UPROPERTY(EditAnywhere, Category = "Projectile" )
+	TSubclassOf<class AActor> Firestorm;
+
+	UFUNCTION(BlueprintCallable, Category="Projectile")
+	void FireFireball();
+
+	UFUNCTION(BlueprintCallable, Category="Projectile")
+	void FireSparks();
+
+	UFUNCTION(BlueprintCallable, Category="Projectile")
+	void FireFirestorm();
+
+	UPROPERTY(EditAnywhere, Category = "Projectile" )
+	FVector FireballOffset = FVector(0,0,0);
+
+	UPROPERTY(EditAnywhere, Category = "Projectile" )
+	FVector SparksOffset = FVector(0,0,0);
+	
+	UPROPERTY(EditAnywhere, Category = "Projectile" )
+	FVector FirestormOffset = FVector(0,0,0);
+	
 };
 

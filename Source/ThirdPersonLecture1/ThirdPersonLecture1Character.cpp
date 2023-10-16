@@ -84,6 +84,11 @@ void AThirdPersonLecture1Character::SetupPlayerInputComponent(class UInputCompon
 		//Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AThirdPersonLecture1Character::Look);
 
+		//Firing
+		EnhancedInputComponent->BindAction(FireFireballAction, ETriggerEvent::Completed, this, &AThirdPersonLecture1Character::FireFireball);
+		//EnhancedInputComponent->BindAction(FireFireballAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
+		EnhancedInputComponent->BindAction(FireSparksAction, ETriggerEvent::Completed, this, &AThirdPersonLecture1Character::FireSparks);
+		EnhancedInputComponent->BindAction(FireFirestormAction, ETriggerEvent::Completed, this, &AThirdPersonLecture1Character::FireFirestorm);
 	}
 
 }
@@ -123,7 +128,81 @@ void AThirdPersonLecture1Character::Look(const FInputActionValue& Value)
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
 }
+void AThirdPersonLecture1Character::FireFireball()
+{
+	FVector ProjectileOffset = FireballOffset;
+	if (Fireball != nullptr)
+	{	
+		UWorld* const World = GetWorld();
+		if (World != nullptr)
+		{
+			//APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
+			//const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
 
+			const FRotator SpawnRotation =FollowCamera->GetComponentRotation();
+			// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+			const FVector SpawnLocation = this->GetActorLocation() + SpawnRotation.RotateVector(ProjectileOffset);
+	
+			//Set Spawn Collision Handling Override
+			FActorSpawnParameters ActorSpawnParams;
+			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+	
+			// Spawn the projectile at the muzzle
+			World->SpawnActor<AActor>(Fireball, SpawnLocation, SpawnRotation, ActorSpawnParams);
+		}	
+
+	}
+}
+void AThirdPersonLecture1Character::FireSparks()
+{
+	FVector ProjectileOffset = SparksOffset;
+	if (Sparks != nullptr)
+	{	
+		UWorld* const World = GetWorld();
+		if (World != nullptr)
+		{
+			//APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
+			//const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
+
+			const FRotator SpawnRotation =FollowCamera->GetComponentRotation();
+			// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+			const FVector SpawnLocation = this->GetActorLocation() + SpawnRotation.RotateVector(ProjectileOffset);
+	
+			//Set Spawn Collision Handling Override
+			FActorSpawnParameters ActorSpawnParams;
+			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+	
+			// Spawn the projectile at the muzzle
+			World->SpawnActor<AActor>(Sparks, SpawnLocation, SpawnRotation, ActorSpawnParams);
+		}	
+
+	}
+}
+void AThirdPersonLecture1Character::FireFirestorm()
+{
+	FVector ProjectileOffset = FirestormOffset;
+	if (Firestorm != nullptr)
+	{	
+		UWorld* const World = GetWorld();
+		if (World != nullptr)
+		{
+			//APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
+			//const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
+
+			const FRotator SpawnRotation =FRotator(0,0,0);
+			// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+			const FVector SpawnLocation = this->GetActorLocation() + SpawnRotation.RotateVector(ProjectileOffset);
+	
+			//Set Spawn Collision Handling Override
+			FActorSpawnParameters ActorSpawnParams;
+			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	
+			// Spawn the projectile at the muzzle
+			World->SpawnActor<AActor>(Firestorm, SpawnLocation, SpawnRotation, ActorSpawnParams);
+		}	
+
+	}
+}		
 
 
 

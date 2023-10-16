@@ -1,1 +1,25 @@
-[1011/192052.013:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[1014/190352.921:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[1014/192803.890:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/192803.892:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/192808.895:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/192808.899:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/192823.367:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/192823.370:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/201556.513:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/201556.524:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/201948.120:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/201948.136:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/202258.638:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/202258.647:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/203538.578:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/203538.592:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/205128.384:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/205128.392:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/211250.586:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/211250.593:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/223056.869:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/223056.874:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/223158.547:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/223158.554:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/223252.281:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1014/223252.293:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
