@@ -1,6 +1,6 @@
 [
 	{
-		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\FireBall.cpp",
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Character\\ThirdPersonLecture1Character.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
 			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
@@ -8,7 +8,7 @@
 		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\FireBall.h",
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Character\\ThirdPersonLecture1Character.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
 			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
@@ -16,7 +16,7 @@
 		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\SparksProjectile.cpp",
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\GameMode\\ThirdPersonLecture1GameMode.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
 			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
@@ -24,7 +24,119 @@
 		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\SparksProjectile.h",
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\GameMode\\ThirdPersonLecture1GameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\FireBall.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\FireBall.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\FireStormComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\FireStormComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\Projectiles.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\Projectiles.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\SparksProjectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\SparksProjectile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\Spawner\\ProjectileSpawner.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\Spawner\\ProjectileSpawner.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\Spawner\\Spawner.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\Spawner\\Spawner.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\TraceForProjectiles\\ProjectileTrace.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
+		],
+		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\Projectiles\\TraceForProjectiles\\ProjectileTrace.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
 			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
@@ -49,38 +161,6 @@
 	},
 	{
 		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\ThirdPersonLecture1.h",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
-		],
-		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
-	},
-	{
-		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\ThirdPersonLecture1Character.cpp",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
-		],
-		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
-	},
-	{
-		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\ThirdPersonLecture1Character.h",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
-		],
-		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
-	},
-	{
-		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\ThirdPersonLecture1GameMode.cpp",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
-		],
-		"directory": "E:\\Games\\UE_5.2\\Engine\\Source"
-	},
-	{
-		"file": "E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\Source\\ThirdPersonLecture1\\ThirdPersonLecture1GameMode.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
 			"@E:\\GITUE5\\ThiredPersonLecture1\\ThirdPersonLecture1\\.vscode\\compileCommands_Default\\ThirdPersonLecture1.261.rsp"
